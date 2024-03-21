@@ -1,0 +1,16 @@
+.sub-title {
+    margin-top: 3.77rem;
+}
+
+.post-entry {
+    h5 {
+        margin-bottom: 1.5556rem;
+        &.read-more {
+            font-size: 0.889rem;
+            padding-bottom: 10px;
+        }
+    }
+    P {
+        font-size: 0.889rem;
+    }
+}

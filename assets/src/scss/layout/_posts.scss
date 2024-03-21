@@ -1,0 +1,18 @@
+// im adding this instead of using javascript is for performance and simplicity 
+.post-container {
+    &:hover .post-entry {
+      opacity: 0.7;
+    }
+  
+    .post-entry {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        z-index: 10;
+        opacity: 1;
+      }
+    }
+  }
+  
